@@ -19,8 +19,10 @@ The board is wired on a stripboard according to the following circuits:
 ![stripboard component side](/docs/DisplayDriver-board-1.JPG)
 ![stripboard copper side](/docs/DisplayDriver-board-2.JPG)
 
-Note that I have used [sPlan 7.0](http://www.abacom-online.de/uk/html/splan.html) for the diagram and [LochMaster 4.0](http://www.abacom-online.de/uk/html/lochmaster.html) for the stripboard circuit.
+Note that, for designing, I have used [sPlan 7.0](http://www.abacom-online.de/uk/html/splan.html) for the diagram and [LochMaster 4.0](http://www.abacom-online.de/uk/html/lochmaster.html) for the stripboard circuit. These are simple and rather cheap tools that I was glad to pay for.
 Here are the original files for the diagram and stripboard:
 [schema](/docs/4DigitsMux.spl7) and [stripboard](/docs/4DigitsMux2.LM4)
 
 If you don't want to buy sPlan or LochMaster, you can still open these files with free viewers for [sPlan](http://www.abacom-online.de/updates/sPlan70_Viewer.exe) and [LochMaster](http://www.abacom-online.de/updates/LochMaster40_Viewer.zip).
+
+*NOTE* In the near future, I will create Arduino libraries for the display driver circuit and for the ultrasound sensor and push these into their own repos, so that the content of the current repo should be simplified.
