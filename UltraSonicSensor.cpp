@@ -10,7 +10,7 @@
 #define TRIGGER_PULSE_MS 10
 #define SOUND_SPEED_M_S 343L
 
-#define cm_to_us(cm) ((unsigned long) cm * 100L * 2L / SOUND_SPEED_M_S)
+#define cm_to_us(cm) ((unsigned long) cm * 100L * 100L * 2L / SOUND_SPEED_M_S)
 #define us_to_cm(us) ((unsigned int)(us * SOUND_SPEED_M_S / (100L * 2L * 100L)))
 
 UltraSonicSensor::UltraSonicSensor(unsigned int triggerPin, unsigned int echoPin, unsigned int maxDistance)
